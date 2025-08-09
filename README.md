@@ -16,6 +16,7 @@ Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado co
 * HTML
 * CSS
 * JAVASCRIPT
+* PHP
 * Git (para controle de versão)
 * GitHub (para hospedagem e colaboração)
 
