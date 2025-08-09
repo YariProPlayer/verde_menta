@@ -4,11 +4,8 @@
 ## 📋 Índice
 * [Descrição](#-descrição)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-* [Estrutura de Pastas](#-estrutura-de-pastas)
-* [Desenvolvimento e Instalação](#-desenvolvimento-e-instalação)
-* [Contribuição](#-contribuição)
-* [Licença](#-licença)
 * [Autores](#-autores)
+* [Licença](#-licença)
 
 ---
 
@@ -22,10 +19,6 @@ Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado co
 * Git (para controle de versão)
 * GitHub (para hospedagem e colaboração)
 
-
-## 📝 Licença
-Este projeto está sob a licença [MIT License](https://opensource.org/licenses/MIT).
-
 ## 🧑‍🤝‍🧑 Autores
 * **[Eduardo ](https://github.com/seuperfil)** - Designer
 
@@ -37,3 +30,5 @@ Este projeto está sob a licença [MIT License](https://opensource.org/licenses/
 
 * **[Raquel Lissa Yamauti](https://github.com/seuperfil)** - Designer
 
+## 📝 Licença
+Este projeto está sob a licença [MIT License](https://opensource.org/licenses/MIT).
