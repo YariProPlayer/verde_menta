@@ -20,15 +20,15 @@ Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado co
 * GitHub (para hospedagem e colaboração)
 
 ## 🧑‍🤝‍🧑 Autores
-* **[Eduardo ](https://github.com/seuperfil)** - Designer
+* **[Eduardo ](https://github.com/Eduardo-141)** - Designer
 
 * **[Elves](https://github.com/seuperfil)** - Programador
 
-* **[Gustavo Garbelini Piacente](https://github.com/seuperfil)** - Programador
+* **[Gustavo Garbelini Piacente](https://https://github.com/Ghostxp-777)** - Programador
 
-* **[Nathan Gabriel Affonso Cortello](https://github.com/seuperfil)** - Documentarista
+* **[Nathan Gabriel Affonso Cortello](https://github.com/Nathan-Affonso)** - Documentarista
 
-* **[Raquel Lissa Yamauti](https://github.com/seuperfil)** - Designer
+* **[Raquel Lissa Yamauti](https://github.com/YariProPlayer)** - Designer
 
 ## 📝 Licença
 Este projeto está sob a licença [MIT License](https://opensource.org/licenses/MIT).
