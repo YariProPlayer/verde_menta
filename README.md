@@ -21,7 +21,7 @@ Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado co
 * GitHub (para hospedagem e colaboração)
 
 ## 🧑‍🤝‍🧑 Autores
-* **[Eduardo ](https://github.com/Eduardo-141)** - Designer
+* **[Eduardo da Silva Santos Silvestre de Menezes](https://github.com/Eduardo-141)** - Designer
 
 * **[Elves](https://github.com/seuperfil)** - Programador
 
