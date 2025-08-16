@@ -25,7 +25,7 @@ Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado co
 
 * **[Elves](https://github.com/Erubes)** - Programador
 
-* **[Gustavo Garbelini Piacente](https://https://github.com/Ghostxp-777)** - Programador
+* **[Gustavo Garbelini Piacente](https://github.com/Ghostxp-777)** - Programador
 
 * **[Nathan Gabriel Affonso Cortello](https://github.com/Nathan-Affonso)** - Documentarista
 
