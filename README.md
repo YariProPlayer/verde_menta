@@ -23,9 +23,9 @@ Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado co
 ## 🧑‍🤝‍🧑 Autores
 * **[Eduardo da Silva Santos Silvestre de Menezes](https://github.com/Eduardo-141)** - Designer
 
-* **[Elves Moreira Santos Júnior](https://github.com/Erubes)** - Programador
+* **[Elves Moreira Santos Júnior](https://github.com/Erubes)** - Dev
 
-* **[Gustavo Garbelini Piacente](https://github.com/Ghostxp-777)** - Programador
+* **[Gustavo Garbelini Piacente](https://github.com/Ghostxp-777)** - Dev
 
 * **[Nathan Gabriel Affonso Cortello](https://github.com/Nathan-Affonso)** - Documentarista
 
