@@ -35,19 +35,20 @@ body{
     height: 50px;
     width: 100%;
     display: flex;
-    gap: 3%;
+    gap: 1%;
     font-family: "Instrument Sans", sans-serif;
     align-items: center;
 }
 
-.navbar_text1 {
+.img_home {
     margin-left: 5%;
 }
 
-.navbar_text2 {
-    margin-left: 42%;
+.img_carrinho {
+    margin-left: 50%;
 }
 
 .banner{
     width: 100%;
-}   
+}
+
