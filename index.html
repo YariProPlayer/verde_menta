@@ -6,30 +6,139 @@
     <title>Fabiana Gourmet</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="short icon" href="img/logo.png">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
+
+    <!-- Aqui nessa imagem que fica lá em cima, precisamos fazer ela ficar responsiva, pois quando diminuimos, a imagem corta, eu pensei em adicionar outra imagem, mas fica ao seu critério se funcionar viu elves -->
     <div class="striped_background">
-        <div class="img_logo_texto">
+        <div class="img-logo-texto">
             <img src="img/logo_texto.png" alt="logo da bandeira escrito fabiana goumert">
         </div>
     </div>
 
-    <div class="navbar">
-        <img src="img/home.png" alt="ícone home da navbar" class="img_home">
-        <h2 class="navbar_text1">Home</h2>
-        <img src="img/sobre.png" alt="ícone sobre da navbar">
-        <h2 class="navbar_text1">Sobre</h2>
-        <img src="img/produtos.png" alt="ícone produtos da navbar">
-        <h2 class="navbar_text1">Produtos</h2>
-        <img src="img/seta_produtos.png" alt="ícone da seta dos produtos da navbar">
-        <img src="img/carrinho.png" alt="ícone carrinho da navbar" class="img_carrinho">
-        <h2 class="navbar_text2">Carrinho</h2>
-        <img src="img/perfil.png" alt="ícone perfil da navbar">
-        <h2 class="navbar_text1">Conta</h2>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#">
+                        <div class="nav-elements">
+                            <img src="img/home.png" alt="" srcset="">
+                            <span>Home</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="nav-elements">
+                            <img src="img/sobre.png" alt="" srcset="">
+                            <span>Sobre</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="nav-elements">
+                            <img src="img/produtos.png" alt="" srcset="">
+                            <span>Produtos</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav-list">
+                <li>
+                    <a href="#">
+                        <div class="nav-elements">
+                            <img src="img/carrinho.png" alt="" srcset="">
+                            <span>Carrinho</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="nav-elements">
+                            <img src="img/perfil.png" alt="" srcset="">
+                            <span>Conta</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="img/banner1.svg" class="banner" alt="banner da tela inicial"class="banner">
+
+    <div class="line-banner"></div>
+
+    <h1 class="title-categories"> Categorias </h1>
+
+    <div class="carousel-container">
+
+        <!-- Radios -->
+        <input type="radio" name="pos" id="p1" checked>
+        <input type="radio" name="pos" id="p2">
+        <input type="radio" name="pos" id="p3">
+        <input type="radio" name="pos" id="p4">
+
+        <div class="carousel">
+
+            <!-- Itens -->
+            <div class="item item1">
+                <img src="img1.jpg" alt="">
+                <span class="label">Bolos</span>
+            </div>
+
+            <div class="item item2">
+                <img src="img2.jpg" alt="">
+                <span class="label">Doces de Pote</span>
+            </div>
+
+            <div class="item item3">
+                <img src="img3.jpg" alt="">
+                <span class="label">Brigadeiros</span>
+            </div>
+
+            <div class="item item4">
+                <img src="img4.jpg" alt="">
+                <span class="label">Tortas</span>
+            </div>
+
+
+            <div class="arrows">
+
+                <!-- Estado 1 -->
+                <label for="p4" class="left from1">&#10094;</label>
+                <label for="p2" class="right from1">&#10095;</label>
+
+                <!-- Estado 2 -->
+                <label for="p1" class="left from2">&#10094;</label>
+                <label for="p3" class="right from2">&#10095;</label>
+
+                <!-- Estado 3 -->
+                <label for="p2" class="left from3">&#10094;</label>
+                <label for="p4" class="right from3">&#10095;</label>
+
+                <!-- Estado 4 -->
+                <label for="p3" class="left from4">&#10094;</label>
+                <label for="p1" class="right from4">&#10095;</label>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div>
-        <img src="img/banner1.svg" alt="banner da tela inicial"class="banner">
+    <h1 class="candy-title"> DOCES EM DESTAQUE! </h1>
+
+    <div class="candy-cards">
+        <img src="img/card-img-1.png" alt="">
+        <img src="img/card-img-1.png" alt="">
+        <img src="img/card-img-1.png" alt="">
+        <img src="img/card-img-1.png" alt="">
     </div>
+
+
+    
 </body>
 </html>

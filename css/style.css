@@ -1,14 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Federo&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Faustina:ital,wght@0,300..800;1,300..800&family=Federo&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Faustina:ital,wght@0,300..800;1,300..800&family=Federo&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&family=Lobster&display=swap');
 
 :root {
   --white: #ffffff;
-  --bright-pink: #FCD8D7
+  --bright-pink: #FCD8D7;
+  --pink: #F8B1B1;
+  --black: #081C15;
 }
 
-body{
-    background-color: white;
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: var(--white);
+    font-family: sans-serif;
+}
+
+/* Navbar com logo em cima */
+
+.img-logo-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .striped_background { 
@@ -23,32 +42,255 @@ body{
     height: 120px;
 }
 
-.img_logo_texto {    
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: var(--bright-pink);
+    padding-inline: 16px;
+}
+
+.nav {
+    width: 1280px;
+    height: 60px;
+    margin-inline: auto;
+
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center ;
-
 }
 
-.navbar {
-    background-color: var(--bright-pink);
-    height: 50px;
-    width: 100%;
+.nav-elements {
     display: flex;
-    gap: 1%;
-    font-family: "Instrument Sans", sans-serif;
-    align-items: center;
+    gap: 20px;
 }
 
-.img_home {
-    margin-left: 5%;
+.nav-elements img{
+    width: 28px;
+    height: 28px;
 }
 
-.img_carrinho {
-    margin-left: 50%;
+.nav-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
 }
+
+.nav-list a {
+    font-size: 20px;
+    color: var(--black);
+    padding-block: 16px;
+    padding-inline: 20px;
+}
+
+/* Banner */
 
 .banner{
     width: 100%;
+    display: block;
 }
 
+.line-banner {
+    width: 100%;
+    height: 50px;
+    background-color: var(--pink);
+}
+
+/* Carrossel das categorias*/
+
+.title-categories {
+    font-family: "Calistoga", serif;
+    text-align: center;
+    margin-top: 40px;
+    color: var(--pink);
+    margin-bottom: 150px;
+    font-size: 40px;
+}
+
+.carousel-container {
+    width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 300px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+/* Itens do carrossel */
+.item {
+    position: absolute;
+    width: 420px;
+    height: 267px;
+    overflow: hidden;
+    border-radius: 6px;
+    transition: .4s;
+    opacity: 0;
+    transform: scale(.8);
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.label {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f0cdcd;
+    padding: 6px 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Posições para cada radio selecionado */
+
+/* Estado 1 */
+#p1:checked ~ .carousel .item1 {
+    transform: translateX(-440px) scale(.9);
+    opacity: .6;
+}
+
+#p1:checked ~ .carousel .item2 {
+    transform: translateX(0px) scale(1.1);
+    opacity: 1;
+}
+#p1:checked ~ .carousel .item2 .label {
+    display: block;
+}
+
+#p1:checked ~ .carousel .item3 {
+    transform: translateX(440px) scale(.9);
+    opacity: .6;
+}
+
+#p1:checked ~ .carousel .item4 {
+    transform: translateX(950px);
+    opacity: 0;
+}
+
+
+/* Estado 2 */
+#p2:checked ~ .carousel .item2 {
+    transform: translateX(-440px) scale(.9);
+    opacity: .6;
+}
+#p2:checked ~ .carousel .item3 {
+    transform: translateX(0px) scale(1.1);
+    opacity: 1;
+}
+#p2:checked ~ .carousel .item3 .label {
+    display: block;
+}
+#p2:checked ~ .carousel .item4 {
+    transform: translateX(440px) scale(.9);
+    opacity: .6;
+}
+#p2:checked ~ .carousel .item1 {
+    transform: translateX(950px);
+    opacity: 0;
+}
+
+
+/* Estado 3 */
+#p3:checked ~ .carousel .item3 {
+    transform: translateX(-440px) scale(.9);
+    opacity: .6;
+}
+#p3:checked ~ .carousel .item4 {
+    transform: translateX(0px) scale(1.1);
+    opacity: 1;
+}
+#p3:checked ~ .carousel .item4 .label {
+    display: block;
+}
+#p3:checked ~ .carousel .item1 {
+    transform: translateX(440px) scale(.9);
+    opacity: .6;
+}
+#p3:checked ~ .carousel .item2 {
+    transform: translateX(-950px);
+    opacity: 0;
+}
+
+
+/* Estado 4 */
+#p4:checked ~ .carousel .item4 {
+    transform: translateX(-440px) scale(.9);
+    opacity: .6;
+}
+#p4:checked ~ .carousel .item1 {
+    transform: translateX(0px) scale(1.1);
+    opacity: 1;
+}
+#p4:checked ~ .carousel .item1 .label {
+    display: block;
+}
+#p4:checked ~ .carousel .item2 {
+    transform: translateX(440px) scale(.9);
+    opacity: .6;
+}
+#p4:checked ~ .carousel .item3 {
+    transform: translateX(950px);
+    opacity: 0;
+}
+
+
+
+/* Setas */
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.arrows label {
+    position: relative;
+    font-size: 40px;
+    cursor: pointer;
+    color: #444;
+    z-index: 20;
+    display: none;
+}
+
+.left {
+    left: -700px;
+}
+
+.right {
+    right: -700px;
+}
+
+#p1:checked ~ .carousel .arrows .from1 { display: block; }
+#p2:checked ~ .carousel .arrows .from2 { display: block; }
+#p3:checked ~ .carousel .arrows .from3 { display: block; }
+#p4:checked ~ .carousel .arrows .from4 { display: block; }
+
+.candy-title {
+    text-align: center;
+    font-family: "Calistoga", serif;
+    font-size: 45px;
+}
+
+.candy-cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
