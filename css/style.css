@@ -7,9 +7,14 @@
 
 :root {
   --white: #ffffff;
+  --black: #081C15;
+  --white-pink: #FFEEEE;
   --bright-pink: #FCD8D7;
   --pink: #F8B1B1;
-  --black: #081C15;
+  --dark-pink: #732424;
+  --border-pink: #BA8282;
+  --border-pink-2: #EFA5A3;
+  --price-pink: #DD7B7B;
 }
 
 * {
@@ -46,12 +51,12 @@ a {
     text-decoration: none;
 }
 
-.header {
+header {
     background: var(--bright-pink);
     padding-inline: 16px;
 }
 
-.nav {
+nav {
     width: 1280px;
     height: 60px;
     margin-inline: auto;
@@ -154,8 +159,12 @@ input[type=radio] {
     transform: translateX(-50%);
     background: #f0cdcd;
     padding: 6px 18px;
-    border-radius: 10px;
-    font-weight: bold;
+    border: 2px solid var(--border-pink);
+    font-family: "Federo", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: var(--dark-pink);
 }
 
 /* Posições para cada radio selecionado */
@@ -180,7 +189,7 @@ input[type=radio] {
 }
 
 #p1:checked ~ .carousel .item4 {
-    transform: translateX(950px);
+    transform: translateX(-950px);
     opacity: 0;
 }
 
@@ -202,7 +211,7 @@ input[type=radio] {
     opacity: .6;
 }
 #p2:checked ~ .carousel .item1 {
-    transform: translateX(950px);
+    transform: translateX(-950px);
     opacity: 0;
 }
 
@@ -246,7 +255,7 @@ input[type=radio] {
     opacity: .6;
 }
 #p4:checked ~ .carousel .item3 {
-    transform: translateX(950px);
+    transform: translateX(-950px);
     opacity: 0;
 }
 
@@ -289,8 +298,151 @@ input[type=radio] {
     font-size: 45px;
 }
 
+.subtitle {
+    text-align: center;
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
 .candy-cards {
     display: flex;
     justify-content: center;
     gap: 100px;
+    margin-block: 100px;
 }
+
+.card {
+    display: block;
+    border: 2px solid var(--black);
+}
+
+.img-card {
+    width: 300px;
+    height: 350px;
+    display: block;
+}
+
+.desc-card {
+    width: 300px;
+    height: 100px;
+    background: var(--bright-pink);
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#price {
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    color: var(--price-pink);
+}
+
+.about-container {
+    width: 99.85%;
+    height: 600px;
+    background: var(--white-pink);
+    border: 2px solid var(--border-pink-2);
+    margin-bottom: 200px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 780px;
+    height: 600px;
+    margin-left : 40px;
+    margin-right: 70px;
+}
+
+.about-container-text {
+    display: block;
+    margin-inline: 150px;
+}
+
+.about-subtitle {
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 25px;
+    margin-block: 30px;
+    text-align: center;
+}
+
+.about-title {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.about-text {
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.moments-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.moments-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+
+.moments {
+    width: 300px;
+    height: 300px;
+    border: 3px solid var(--black);
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background: var(--bright-pink);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title-footer {
+    font-family: "Jomhuria", serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.text-footer {
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+
