@@ -374,9 +374,9 @@ input[type=radio] {
 
 .about-title {
     font-family: "Lobster", sans-serif;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     margin-bottom: 20px;
     
