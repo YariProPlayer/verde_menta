@@ -96,12 +96,87 @@ nav {
     display: block;
 }
 
-
-.sobre1 .img-sobre{
-    
+.line-banner {
+    width: 100%;
+    height: 50px;
+    background-color: var(--pink);
 }
 
 
+.sobre1 .img-sobre1{
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 60vh;
+    width: 25vw;
+}
+
+.sobre1{
+    display: flex;
+    gap: 30%;
+    
+}
+
+.sobre1 .title1-sobre{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-family: "faustina", serif;
+}
+
+.sobre1 .text1-sobre{
+    margin-right: 5%;
+}
+
+.sobre2 .title2-sobre{
+    font-family: "faustina", serif;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 40px;
+}
+
+
+.sobre2 .icons-sobre{
+    margin-top: 5%;
+    margin-left: 17%;
+    gap: 5%;
+    display: flex;
+    height: 4vh;
+    width: auto;
+}
+
+.sobre2 .title3-sobre{
+    font-family: "faustina";
+    font-size: 40px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.sobre2 .subtitle1-sobre{
+    text-align: center  ;
+}
+
+.sobre2 .avaliacao .avaliacao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 1%;
+    margin-bottom: 10%;
+}
+
+.sobre2 .avaliacao .avaliacao1 .img1-avaliacao img{
+    background-color: var(--bright-pink);
+    max-width: 100%;
+    height: 8vh;
+    width: auto;
+    border-radius: 50%;
+    border: solid;
+    
+    
+}
+
+.sobre2 .avaliacao .avaliacao1 .conteudo1-avaliacao{
+     background-color: var(--bright-pink);
+}
 footer {
     width: 100%;
     height: 500px;
