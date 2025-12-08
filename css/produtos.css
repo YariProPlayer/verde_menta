@@ -89,120 +89,46 @@ nav {
     padding-inline: 20px;
 }
 
-/* Banner */
+/* Fim da Nav */
 
-.banner{
-    width: 100%;
-    display: block;
+
+.categoria{
+    background-color: var(--bright-pink);
+
 }
 
-.line-banner {
+.categoria h1{
+    text-align: center;
+    font-family: "faustina", serif;
+    padding-top: 2%;
+}
+
+.categoria .categorias{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    padding-top: 2%;
+}
+
+.doces h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "faustina", serif;
+    color: var(--price-pink);
+    font-size: 45px;
+
+}
+
+/*  Footer */
+
+.line-footer{
     width: 100%;
-    height: 50px;
+    height: 20px;
     background-color: var(--pink);
 }
 
-
-.sobre1 .img-sobre1{
-    margin-left: 15%;
-    margin-top: 5%;
-    height: 60vh;
-    width: 25vw;
-}
-
-.sobre1{
-    display: flex;
-    gap: 25%;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.sobre1 .title1-sobre{
-    margin-top: 20%;
-    margin-bottom: 10%;
-    font-family: "faustina", serif;
-}
-
-.sobre1 .text1-sobre{
-    margin-right: 5%;
-}
-
-
-
-
-.sobre2 .title2-sobre{
-    font-family: "faustina", serif;
-    text-align: center;
-    margin-top: 6%;
-    font-size: 40px;
-}
-
-
-.sobre2 .icons-sobre{
-    margin-top: 5%;
-    margin-left: 17%;
-    gap: 5%;
-    display: flex;
-    height: 4vh;
-    width: auto;
-}
-
-.title3-sobre{
-    font-family: "faustina";
-    font-size: 40px;
-    margin-top: 15%;
-    text-align: center;
-}
-
-.subtitle1-sobre{
-    text-align: center  ;
-}
-
-.avaliacao{
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.avaliacao .avaliacao1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    gap: 1%;
-    margin-bottom: 10%;
-    background-color: var(--bright-pink);
-    width: fit-content;
-    margin-left: 35%;
-    border: solid 3px;
-    padding: 1%;
-}
-
-
-.avaliacao .avaliacao1 .img1-avaliacao{
-    background-color: var(--bright-pink);
-    
-}
-
-.avaliacao .avaliacao1 .img1-avaliacao img{
-    background-color: var(--bright-pink);
-    max-width: 100%;
-    height: 8vh;
-    width: auto;
-    border-radius: 50%;
-    border: solid;
-    
-    
-}
-
-.avaliacao .avaliacao1 .conteudo1-avaliacao{
-     background-color: var(--bright-pink);
-     padding: 2%;
-     
-}
 footer {
     width: 100%;
     height: 500px;
