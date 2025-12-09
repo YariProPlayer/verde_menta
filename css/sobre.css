@@ -191,51 +191,7 @@ nav {
     border-radius: 40px;
 }
 
-/* Irei utilizar no sobre produtos
-.avaliacao{
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.avaliacao .avaliacao1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    gap: 1%;
-    margin-bottom: 10%;
-    background-color: var(--bright-pink);
-    width: fit-content;
-    margin-left: 35%;
-    border: solid 3px;
-    padding: 1%;
-}
-
-
-.avaliacao .avaliacao1 .img1-avaliacao{
-    background-color: var(--bright-pink);
-    
-}
-
-.avaliacao .avaliacao1 .img1-avaliacao img{
-    background-color: var(--bright-pink);
-    max-width: 100%;
-    height: 8vh;
-    width: auto;
-    border-radius: 50%;
-    border: solid;
-    
-    
-}
-
-.avaliacao .avaliacao1 .conteudo1-avaliacao{
-     background-color: var(--bright-pink);
-     padding: 2%;
-     
-}
-
-*/
 
 footer {
     width: 100%;
