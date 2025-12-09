@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Federo&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Faustina:ital,wght@0,300..800;1,300..800&family=Federo&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Faustina:ital,wght@0,300..800;1,300..800&family=Federo&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jomhuria&family=Lobster&display=swap');
 
 :root {
@@ -34,7 +29,6 @@ h1{
     font-family: "Calistoga", serif;
 }
 
-/* Navbar com logo em cima */
 .img-logo-texto {
     display: flex;
     justify-content: center;
@@ -298,9 +292,8 @@ footer {
     margin-top: 5px;
 }
 
-/* MEDIA QUERIES PARA RESPONSIVIDADE */
 
-/* Telas médias (900px) - Para a nav */
+/* ajusta a nav */
 @media (max-width: 900px) {
     nav {
         justify-content: center;
@@ -315,230 +308,5 @@ footer {
         font-size: 16px;
         padding-inline: 12px;
         padding-block: 10px;
-    }
-}
-
-/* Tablets (768px) */
-@media (max-width: 768px) {
-    .striped_background {
-        height: 100px;
-    }
-    
-    .nav-list {
-        gap: 8px;
-    }
-    
-    .nav-list a {
-        padding-inline: 8px;
-        font-size: 14px;
-    }
-    
-    .nav-elements {
-        gap: 5px;
-    }
-    
-    .nav-elements img {
-        width: 20px;
-        height: 20px;
-    }
-    
-    .candy-title {
-        font-size: 36px;
-        margin-bottom: 15px;
-    }
-    
-    .subtitle {
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
-    
-    .container {
-        flex-direction: column;
-        gap: 40px;
-        margin-block: 60px;
-        min-height: auto;
-    }
-    
-    .container-form {
-        width: 100%;
-        max-width: 600px;
-        order: 2;
-    }
-    
-    .container img {
-        width: 80%;
-        max-width: 500px;
-        order: 1;
-    }
-    
-    label {
-        font-size: 18px;
-    }
-    
-    input {
-        height: 40px;
-        font-size: 16px;
-    }
-    
-    button {
-        width: 180px;
-        height: 45px;
-        font-size: 18px;
-    }
-    
-    .title-footer {
-        font-size: 36px;
-    }
-    
-    .text-footer {
-        font-size: 18px;
-    }
-    
-    footer {
-        gap: 50px;
-    }
-    
-    .container-footer:not(:first-child) {
-        margin-left: 0;
-    }
-}
-
-/* Celulares (480px) */
-@media (max-width: 480px) {
-    .striped_background {
-        height: 80px;
-        background: repeating-linear-gradient(
-            90deg,
-            var(--white),
-            var(--white) 20px,
-            var(--bright-pink) 5px,
-            var(--bright-pink) 40px
-        );
-    }
-    
-    header {
-        padding-inline: 10px;
-    }
-    
-    nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
-    }
-    
-    .nav-list {
-        width: 100%;
-        justify-content: center;
-        gap: 5px;
-    }
-    
-    .candy-title {
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
-    
-    .subtitle {
-        font-size: 16px;
-        margin-bottom: 25px;
-    }
-    
-    .container {
-        margin-block: 40px;
-        width: 95%;
-        gap: 30px;
-    }
-    
-    .container-form {
-        min-width: 280px;
-    }
-    
-    .container img {
-        width: 90%;
-        min-width: 280px;
-    }
-    
-    label {
-        font-size: 16px;
-        margin-top: 15px;
-    }
-    
-    input {
-        height: 35px;
-        font-size: 15px;
-        padding: 0 10px;
-    }
-    
-    button {
-        width: 160px;
-        height: 40px;
-        font-size: 16px;
-        margin-top: 25px;
-    }
-    
-    footer {
-        padding: 30px 15px;
-        gap: 30px;
-    }
-    
-    .container-footer img {
-        width: 250px;
-        height: 250px;
-    }
-    
-    .social-container img {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .title-footer {
-        font-size: 28px;
-    }
-    
-    .text-footer {
-        font-size: 16px;
-    }
-}
-
-/* Telas muito pequenas (400px) */
-@media (max-width: 400px) {
-    .candy-title {
-        font-size: 24px;
-    }
-    
-    .subtitle {
-        font-size: 14px;
-    }
-    
-    .container {
-        margin-block: 30px;
-        gap: 20px;
-    }
-    
-    .container img {
-        width: 95%;
-        min-width: 260px;
-    }
-    
-    label {
-        font-size: 15px;
-    }
-    
-    input {
-        height: 30px;
-        font-size: 14px;
-    }
-    
-    button {
-        width: 140px;
-        height: 35px;
-        font-size: 14px;
-    }
-    
-    .title-footer {
-        font-size: 24px;
-    }
-    
-    .text-footer {
-        font-size: 14px;
     }
 }
