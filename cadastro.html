@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fabiana Gourmet</title>
-    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/cadastro.css">
     <link rel="short icon" href="img/logo.png">
     <script defer src="js/script.js"></script>
 </head>
@@ -56,7 +56,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="cadastro.html">
+                    <a href="#">
                         <div class="nav-elements">
                             <img src="img/perfil.png" alt="" srcset="">
                             <span>Conta</span>
@@ -68,32 +68,33 @@
     </header>
 
     <main>
-        
-        <div class="categoria">
-            <h1>Selecione a categoria:</h1>
-            <div class="categorias">
-                <img src="img/categorias/doce_leite.png" alt="">
-                <img src="img/categorias/S_lactose.png" alt="">
-                <img src="img/categorias/Leite_ninho.png" alt="">
-                <img src="img/categorias/Biscoitos.png" alt="">
-            </div>
-        </div>
-
-        <div class="doces">
-            <h1>Doces Diversos!</h1>
-            <div class="doce">
-                <div class="doce-img">
-                <img src="img/produtos/ovo_morango.png" alt="">
-            </div>
-            <div class="doce-text">
-                <h1>Ovo de Bombom de Morango </h1>
-                <h1 class="preco">R$19,90</h1>
+        <div class="container">
+            <div class="container-form">
+                <div class="titles">
+                    <h1 class="candy-title"> CADASTRE - SE</h1>
+                    <h3 class="subtitle"> Seja bem-vindo a Fabiana Gourmet</h3>
                 </div>
+
+                <form class="form-cadastro">
+                    <label for="nome">Nome:</label> 
+                    <input type="text" name="nome">
+
+                    <label for="email">E-mail:</label> 
+                    <input type="email" name="email">
+
+                    <label for="telefone">Telefone:</label> 
+                    <input type="text" name="telefone">
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha">
+
+                    <button type="submit">Criar conta</button>
+                </form>
             </div>
-            
+
+            <img src="img/img_cadastro.png" alt="">
         </div>
 
-       <div class="line-footer"></div>
     </main>
 
     
