@@ -10,7 +10,7 @@
 ---
 
 ## 📄 Descrição
-Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado como parte do aprendizado sobre abule.
+Este projeto tem o objetivo de criar um site para uma empresa. Ele foi criado como parte do aprendizado do curso DevMenthors.
 
 ## 💻 Tecnologias Utilizadas
 * HTML
